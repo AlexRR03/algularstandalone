@@ -1,0 +1,21 @@
+<div>
+  <h1>Personas Api</h1>
+  <table>
+    <thead>
+      <tr>
+        <td>Nombre</td>
+        <td>Email</td>
+        <td>Edad</td>
+      </tr>
+    </thead>
+    <tbody>
+      @for (persona of personas; track personas){
+        <tr>
+          <td>{{persona.Nombre}}</td>
+          <td>{{persona.Email}}</td>
+          <td>{{persona.Edad}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
